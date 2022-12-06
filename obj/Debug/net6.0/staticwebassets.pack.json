@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/adirnoyman/Library/Mobile Documents/com~apple~CloudDocs/Documents/Microsoft.NET CORE/development/Blazor/SalesManagementApp/SalesManagementApp/obj/Debug/net6.0/scopedcss/projectbundle/SalesManagementApp.bundle.scp.css",
+      "PackagePath": "staticwebassets/SalesManagementApp.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/adirnoyman/Library/Mobile Documents/com~apple~CloudDocs/Documents/Microsoft.NET CORE/development/Blazor/SalesManagementApp/SalesManagementApp/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/adirnoyman/Library/Mobile Documents/com~apple~CloudDocs/Documents/Microsoft.NET CORE/development/Blazor/SalesManagementApp/SalesManagementApp/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/adirnoyman/Library/Mobile Documents/com~apple~CloudDocs/Documents/Microsoft.NET CORE/development/Blazor/SalesManagementApp/SalesManagementApp/wwwroot/css/open-iconic/FONT-LICENSE",
+      "PackagePath": "staticwebassets/css/open-iconic"
+    },
+    {
+      "Id": "/Users/adirnoyman/Library/Mobile Documents/com~apple~CloudDocs/Documents/Microsoft.NET CORE/development/Blazor/SalesManagementApp/SalesManagementApp/wwwroot/css/open-iconic/ICON-LICENSE",
+      "PackagePath": "staticwebassets/css/open-iconic"
+    },
+    {
+      "Id": "/Users/adirnoyman/Library/Mobile Documents/com~apple~CloudDocs/Documents/Microsoft.NET CORE/development/Blazor/SalesManagementApp/SalesManagementApp/wwwroot/css/open-iconic/README.md",
+      "PackagePath": "staticwebassets/css/open-iconic/README.md"
+    },
+    {
+      "Id": "/Users/adirnoyman/Library/Mobile Documents/com~apple~CloudDocs/Documents/Microsoft.NET CORE/development/Blazor/SalesManagementApp/SalesManagementApp/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/adirnoyman/Library/Mobile Documents/com~apple~CloudDocs/Documents/Microsoft.NET CORE/development/Blazor/SalesManagementApp/SalesManagementApp/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.eot"
+    },
+    {
+      "Id": "/Users/adirnoyman/Library/Mobile Documents/com~apple~CloudDocs/Documents/Microsoft.NET CORE/development/Blazor/SalesManagementApp/SalesManagementApp/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.otf"
+    },
+    {
+      "Id": "/Users/adirnoyman/Library/Mobile Documents/com~apple~CloudDocs/Documents/Microsoft.NET CORE/development/Blazor/SalesManagementApp/SalesManagementApp/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.svg"
+    },
+    {
+      "Id": "/Users/adirnoyman/Library/Mobile Documents/com~apple~CloudDocs/Documents/Microsoft.NET CORE/development/Blazor/SalesManagementApp/SalesManagementApp/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.ttf"
+    },
+    {
+      "Id": "/Users/adirnoyman/Library/Mobile Documents/com~apple~CloudDocs/Documents/Microsoft.NET CORE/development/Blazor/SalesManagementApp/SalesManagementApp/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.woff"
+    },
+    {
+      "Id": "/Users/adirnoyman/Library/Mobile Documents/com~apple~CloudDocs/Documents/Microsoft.NET CORE/development/Blazor/SalesManagementApp/SalesManagementApp/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/adirnoyman/Library/Mobile Documents/com~apple~CloudDocs/Documents/Microsoft.NET CORE/development/Blazor/SalesManagementApp/SalesManagementApp/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.SalesManagementApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.SalesManagementApp.props",
+      "PackagePath": "build\\SalesManagementApp.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.SalesManagementApp.props",
+      "PackagePath": "buildMultiTargeting\\SalesManagementApp.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.SalesManagementApp.props",
+      "PackagePath": "buildTransitive\\SalesManagementApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

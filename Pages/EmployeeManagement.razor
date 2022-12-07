@@ -4,15 +4,19 @@
 <h3>EmployeeManagement</h3>
 
 <div style="max-width:80%">
-    <SfGrid DataSource="employeeData">
+    <SfGrid DataSource="employeeData" AllowPaging="true" AllowGrouping="true" AllowFiltering="true" AllowSorting="true"
+        Toolbar="@toolbar">
+        <GridEditSettings AllowAdding="true" AllowEditing="true"></GridEditSettings>
+        <GridPageSettings PageSize="10"></GridPageSettings>
+        <GridFilterSettings Type="Syncfusion.Blazor.Grids.FilterType.Menu"></GridFilterSettings>
         <GridColumns>
             <GridColumn Field="@nameof(EmployeeModel.Id)"></GridColumn>
-            <GridColumn Field="@nameof(EmployeeModel.FirstName)"></GridColumn>
-            <GridColumn Field="@nameof(EmployeeModel.LastName)"></GridColumn>
-            <GridColumn Field="@nameof(EmployeeModel.Gender)"></GridColumn>
-            <GridColumn Field="@nameof(EmployeeModel.JobTitle)"></GridColumn>
-            <GridColumn Field="@nameof(EmployeeModel.DateOfBirth)"></GridColumn>
-            <GridColumn Field="@nameof(EmployeeModel.ReportToEmpId)"></GridColumn>
+            <GridColumn HeaderText="First Name" Field="@nameof(EmployeeModel.FirstName)"></GridColumn>
+            <GridColumn HeaderText="Last Name" Field="@nameof(EmployeeModel.LastName)"></GridColumn>
+            <GridColumn HeaderText="Gender" Field="@nameof(EmployeeModel.Gender)"></GridColumn>
+            <GridColumn HeaderText="Job Title" Field="@nameof(EmployeeModel.JobTitle)"></GridColumn>
+            <GridColumn HeaderText="Date of Birth" Field="@nameof(EmployeeModel.DateOfBirth)" Format="d"></GridColumn>
+            <GridColumn HeaderText="Reports to" Field="@nameof(EmployeeModel.ReportToEmpId)"></GridColumn>
         </GridColumns>
 
     </SfGrid>
@@ -21,6 +25,7 @@
 @code {
 
     private List<EmployeeModel>? employeeData = null;
+    private List<object> toolbar = new List<object> { "Add", "Edit", "Update", "Cancel", "Search" };
 
     protected override void OnInitialized()
     {
